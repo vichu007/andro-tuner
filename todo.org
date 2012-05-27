@@ -1,3 +1,4 @@
+#+TODO: TODO(t) INPROGRESS(i) | RESOLVED(r) CLOSED9(c)
 Issues, user-stories, features
 
 * TODO AT-1 Create skeleton project				       :task:
@@ -20,3 +21,8 @@ Issues, user-stories, features
 * TODO AT-4 Tuner registers incoming sound from microphone	      :story:
   When application starts, application will enable microphone
   and register incoming sounds.
+* INPROGRESS AT-5 Measure different algorithm speeds		       :task:
+  Measuring speeds of JTransform,Java translation of FFTPACK 
+  by Baoshe Zhang, and Apache Commons Math.
+  Currently JTransform and FFTPACK are clearly faster than
+  apache.
