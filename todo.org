@@ -47,7 +47,9 @@ Sprint end date: <2012-06-09 Sat 20:09>
 ** TODO AT-7 Wheel can revolve around its middle point		      :story:
 
    
-
+** INPROGRESS AT-12 What about testing application		       :task:
+   How much testing should I apply. Idealy should use
+   test-driven development?
 *  ------------Backlog-------------------------------------------
 
 ** TODO AT-8 User can change settings				       :epic:
