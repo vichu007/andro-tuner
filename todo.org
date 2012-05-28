@@ -1,28 +1,69 @@
-#+TODO: TODO(t) INPROGRESS(i) | RESOLVED(r) CLOSED9(c)
+#+TODO: TODO(t) INPROGRESS(i) | RESOLVED(r) CLOSED(c)
 Issues, user-stories, features
+* -------------Sprint1------------------------------------------
+Sprint start date: <2012-05-26 Sat 20:08>
+Sprint end date: <2012-06-09 Sat 20:09>
 
-* TODO AT-1 Create skeleton project				       :task:
 
-* TODO AT-2 Choose best FFT algorithm 				       :task:
-  Resources:
-  http://stackoverflow.com/questions/3287518/reliable-and-fast-fft-in-java
-  Choices are:
-  1. JTransforms 
-     http://sites.google.com/site/piotrwendykier/software/jtransforms
-  2. Apache Commons Math lib 
-     http://commons.apache.org/math/
-  3. FFTW 
-     http://www.fftw.org/download.html
-     Licence problems?
-  4. KissFFT libraries on android
-     http://www.digiphd.com/android-java-simple-fft-libgdx/
-  5. 
-* TODO AT-3 Design some initial UI mockups			       :task:
-* TODO AT-4 Tuner registers incoming sound from microphone	      :story:
-  When application starts, application will enable microphone
-  and register incoming sounds.
-* INPROGRESS AT-5 Measure different algorithm speeds		       :task:
-  Measuring speeds of JTransform,Java translation of FFTPACK 
-  by Baoshe Zhang, and Apache Commons Math.
-  Currently JTransform and FFTPACK are clearly faster than
-  apache.
+** CLOSED AT-1 Create skeleton project				       :task:
+   CLOSED: 
+   Created simple android project that can be build via ant
+   and eclipse tools.
+   <2012-05-28 Mon 19:56>
+   
+** RESOLVED AT-2 Choose best FFT algorithm			       :task:
+   Resources:
+   http://stackoverflow.com/questions/3287518/reliable-and-fast-fft-in-java
+   Choices are:
+   1. JTransforms 
+      http://sites.google.com/site/piotrwendykier/software/jtransforms
+   2. Apache Commons Math lib 
+      http://commons.apache.org/math/
+   3. FFTW 
+      http://www.fftw.org/download.html
+      Licence problems?
+   4. KissFFT libraries on android
+      http://www.digiphd.com/android-java-simple-fft-libgdx/
+   RESOLVED:
+   <2012-05-28 Mon 19:57>
+   Before closing should test various speeds
+** CLOSED AT-3 Design some initial UI mockups			       :task:
+   CLOSED: 
+   <2012-05-28 Mon 20:01>
+** TODO AT-4 Tuner registers incoming sound from microphone	      :story:
+   When application starts, application will enable microphone
+   and register incoming sounds.
+** RESOLVED AT-5 Measure different algorithm speeds		       :task:
+   Measuring speeds of JTransform,Java translation of FFTPACK 
+   by Baoshe Zhang, and Apache Commons Math.
+   Currently JTransform and FFTPACK are clearly faster than
+   apache.
+   RESOLVED: I think I will stick with JTransforms. It's as simple
+   as FFTPACK and more extensible.
+** TODO AT-6 User can see note-wheel on the screen		      :story:
+   Description: When app is started, user will see a wheel
+   that has notes on it. Wheel mockups are in the mockup
+   folder.
+** TODO AT-7 Wheel can revolve around its middle point		      :story:
+
+   
+
+*  ------------Backlog-------------------------------------------
+
+** TODO AT-8 User can change settings				       :epic:
+   User can change various settings. In example: He can change
+   UI look and feel, can change audio specific settings(sample rate).
+   
+** TODO AT-9 Create more UI mockups				       :task:
+
+** TODO [0/3] AT-10 Algorithm calculates correct frequency 	       :epic:
+   1. [ ] Apply needed filters to audio samples
+   2. [ ] Calculate FFT from microphone audio data
+   3. [ ] Apply algorithm, that calculates correct frequency
+
+
+** TODO AT-11 Note-wheel turns to specified note		      :story:
+   Wheel rotates to some note, A, B, C. If note A is played
+   wheel rotates to that notes, if afterwards C is played, wheel
+   takes shortest path to that note.
+   This story applies only if i will use wheel-based UI
