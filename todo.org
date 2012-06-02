@@ -40,11 +40,11 @@ Sprint end date: <2012-06-09 Sat 20:09>
    apache.
    RESOLVED: I think I will stick with JTransforms. It's as simple
    as FFTPACK and more extensible.
-** TODO AT-6 User can see note-wheel on the screen		      :story:
+** CLOSED AT-6 User can see note-wheel on the screen		      :story:
    Description: When app is started, user will see a wheel
    that has notes on it. Wheel mockups are in the mockup
    folder.
-** TODO AT-7 Wheel can revolve around its middle point		      :story:
+** INPROGRESS AT-7 Wheel can revolve around its middle point	      :story:
 
    
 ** INPROGRESS AT-12 What about testing application		       :task:
