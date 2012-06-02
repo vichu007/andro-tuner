@@ -3,7 +3,8 @@
       package="ee.jyria.androtuner"
       android:versionCode="1"
       android:versionName="1.0">
-    <application android:label="@string/app_name" >
+      <uses-permission android:name ="android.permission.RECORD_AUDIO"/>    
+      <application android:label="@string/app_name" >
         <activity android:name="MainActivity"
                   android:label="@string/app_name">
             <intent-filter>

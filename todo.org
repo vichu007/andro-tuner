@@ -11,7 +11,7 @@ Sprint end date: <2012-06-09 Sat 20:09>
    and eclipse tools.
    <2012-05-28 Mon 19:56>
    
-** RESOLVED AT-2 Choose best FFT algorithm			       :task:
+** CLOSED AT-2 Choose best FFT algorithm			       :task:
    Resources:
    http://stackoverflow.com/questions/3287518/reliable-and-fast-fft-in-java
    Choices are:
@@ -30,10 +30,10 @@ Sprint end date: <2012-06-09 Sat 20:09>
 ** CLOSED AT-3 Design some initial UI mockups			       :task:
    CLOSED: 
    <2012-05-28 Mon 20:01>
-** TODO AT-4 Tuner registers incoming sound from microphone	      :story:
+** RESOLVED AT-4 Tuner registers incoming sound from microphone	      :story:
    When application starts, application will enable microphone
    and register incoming sounds.
-** RESOLVED AT-5 Measure different algorithm speeds		       :task:
+** CLOSED AT-5 Measure different algorithm speeds		       :task:
    Measuring speeds of JTransform,Java translation of FFTPACK 
    by Baoshe Zhang, and Apache Commons Math.
    Currently JTransform and FFTPACK are clearly faster than
