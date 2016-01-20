@@ -1,0 +1,1 @@
+A simple mobile application for tuning guitar
